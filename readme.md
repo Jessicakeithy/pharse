@@ -38,4 +38,4 @@ O projeto utiliza os fundamentos principais do desenvolvimento Front-end web:
 ## 🧠🎨 Desenvolvido por: **Jessica Keithy** 🩷
 * ⚙️ Desenvolvedora Front-end
 * 🐙[**GitHub**](https://github.com/Jessicakeithy)
-* 💼[**LinkedIn**](https://www.linkedin.com/in/jessica-keithy/?isSelfProfile=true).
+* 💼[**LinkedIn**](https://www.linkedin.com/in/jessica-keithy/?isSelfProfile=true)
