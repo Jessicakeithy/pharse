@@ -1,0 +1,101 @@
+body {
+    background-color: #f4f5f7;
+    background-image: radial-gradient(#d1d5db 1.2px, transparent 1.2px);
+    background-size: 24px 24px;
+    font-family: "Quicksand", sans-serif;
+    color: #2d3748;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-citacao {
+    background-color: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 12px 35px rgba(0, 171, 240, 0.08);
+    text-align: center;
+    width: 400px;
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.faixa-gradiente {
+    height: 10px;
+    width: 100%;
+    background: linear-gradient(270deg, #00abf0 0%, #8b5cf6, #c084fc, #38bdf8);
+    background-size: 400% 400%;
+    animation: gradientFundo 8s ease infinite;
+}
+
+@keyframes gradientFundo {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.conteudo-cartao {
+    padding: 35px 30px 25px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-citacao h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #00abf0;
+    text-shadow: 0 0 12px rgba(0, 171, 240, 0.35), 0 0 25px rgba(139, 92, 246, 0.2);
+    letter-spacing: 0.5px;
+
+}
+
+.card-citacao p {
+    color: #4a5568;
+    font-size: 15px;
+    line-height: 1.6;
+    min-height: 75px;
+    font-weight: 600;
+}
+
+#btn-gerar {
+    background: linear-gradient(135deg, #00abf0, #38bdf8);
+    color: #ffffff;
+    border: none;
+    padding: 12px 26px;
+    border-radius: 14px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 171, 240, 0.3);
+    transition: all 0.3s ease;
+}
+
+#btn-gerar:hover {
+    background: linear-gradient(135deg, #0284c7, #7c3aed);
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(124, 58, 237, 0.35);
+}
+
+footer {
+    background-color: #faf5ff;
+    border-top: 1px solid #f3e8ff;
+    padding: 14px;
+    font-size: 12.5px;
+    font-weight: 700;
+    color: #7c3ead;
+    letter-spacing: 0.3px;
+}

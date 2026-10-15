@@ -1,0 +1,25 @@
+@media (max-width: 440px) {
+    .card-citacao {
+        width: 90%;
+        border-radius: 20px;
+    }
+
+    .conteudo-cartao {
+        padding: 25px 20px 20px 20px;
+        gap: 15px;
+    }
+
+    .card-citacao h1 {
+        font-size: 21px;
+    }
+
+    .card-citacao p {
+        font-size: 14px;
+        min-height: 85px;
+    }
+
+    #btn-gerar {
+        padding: 11px 20px;
+        font-size: 14px;
+    }
+}
